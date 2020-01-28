@@ -39,7 +39,7 @@ public class User {
 			User.log(users[i]);
 	}
 	
-	public static double getSumSummary(User[] users) {
+	public static double getSumSalary(User[] users) {
 		double sumsalary = 0;
 		for(int i = 0 ; i < users.length ; i ++)
 			sumsalary += users[i].salary;
