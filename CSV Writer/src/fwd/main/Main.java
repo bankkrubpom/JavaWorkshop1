@@ -13,8 +13,7 @@ public class Main {
 		String path = "/Users/sompopkulapalanont/Projects/java-course/test.csv";
 		
 		
-		
-		
+		// Test Git
 		//User[] customers = new User[10];
 		//customers[0] = naiKor;
 		User[] customers =  {
