@@ -10,7 +10,7 @@ public class Main {
 
 	public static void main(String[] args) throws IOException {
 		// TODO Auto-generated method stub
-		String path = "/Users/sompopkulapalanont/Projects/java-course/test.csv";
+		String path = "D:\\DATA\\test.csv";
 		
 		
 		
@@ -24,7 +24,7 @@ public class Main {
 		//SmartCsv.write(customers, path);
 		SmartCsv csv = new SmartCsv(path, "Windows");
 		csv.write(customers);
-		SmartCsv csv2 = new SmartCsv( "/Users/sompopkulapalanont/Projects/java-course/test2.csv");
+		SmartCsv csv2 = new SmartCsv( "D:\\DATA\\test2.csv");
 		csv2.write(customers);
 		
 	//	User.log(customers);
