@@ -38,4 +38,8 @@ public class User {
 		for(int i = 0 ; i < users.length ; i ++)
 			User.log(users[i]);
 	}
+	
+	public static double getSumSalary() {
+		return 5000.00;
+	}
 }
