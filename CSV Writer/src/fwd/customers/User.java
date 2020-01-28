@@ -44,5 +44,6 @@ public class User {
 		for(int i = 0 ; i < users.length ; i ++)
 			sumsalary += users[i].salary;
 		return sumsalary;
+
 	}
 }
