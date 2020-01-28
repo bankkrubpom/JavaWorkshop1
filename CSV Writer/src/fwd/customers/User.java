@@ -39,7 +39,7 @@ public class User {
 			User.log(users[i]);
 	}
 	
-	public static double getSumSalary() {
-		return 5000.00;
+	public static double getSumSalary(User[] users) {
+		return 5000;
 	}
 }
