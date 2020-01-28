@@ -1,6 +1,5 @@
 package fwd.utils;
 
-
 import java.io.FileWriter;
 import java.io.IOException;
 
@@ -42,6 +41,10 @@ public class SmartCsv {
 		return answer + this.newLineChar;
 	}
 	
+	public void test() {
+		System.out.println("Test");
+	}
+	
 	public void write(User[] users) throws IOException {
 		FileWriter writer = new FileWriter(this.path);
 		
@@ -72,4 +75,8 @@ public class SmartCsv {
 		writer.flush();
 		writer.close();
 	}*/
+	
+	void printSalar(User[] user) {
+		System.out.println(User.getSumSalary(user));
+		}
 }
