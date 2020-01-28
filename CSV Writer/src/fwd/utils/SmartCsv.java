@@ -76,7 +76,7 @@ public class SmartCsv {
 		writer.close();
 	}*/
 	
-	void printSalar(User[] user) {
+	public void printSalar(User[] user) {
 		System.out.println(User.getSumSalary(user));
 		}
 }
